@@ -1,34 +1,35 @@
-# Solana Copytrading Bot
+# Solana Copytrading Bot (Raydium, Meteora, Pumpfun)
 
-This is copy trading bot running on several solana dex platform - raydium, meteora, pumpfun.
-This is basic version, not full version.
-In this bot, it track the profitable bots fast and copytrack it.
-If you want, I can offer full version and can develop customized advanced project.
-    
-
-
-### Contact information:
-Whatspp: https://wa.me/13137423660
-Telegram: https://t.me/DevCutup
-Twitter: https://twitter.com/januscutup
-
-
-
-### What can you do in this project
-This is not advanced project, but it will be basic knowledge for your solana bot study.
-If you wanna have solana trading bot , I can customize it for your requirement.
-
-
-### Test results
+## Test results
 Target transaction: 
 https://solscan.io/tx/3REXjQfCAGFvj3eYM6LEZrPVCbH3UNeBC1MW6eXTFqq9uamEhRNSfbLmjrkkj1GeDRajZLwQFFFV9FDDMHcu1Lhm
 
 Copy transaction: 
 https://solscan.io/tx/4ciUpbved6zjXxSRqnkhY4TeZvzsUVrJb4wdcWLAppJftwgNfMB8dFVHPPrKi3LRJgYuFVztdVCZSrXxzte2ftsj
 
+##  **Features**  
+
+1. **Real-Time Monitoring** 🕒:  
+   - Leverages WebSocket to track Jupiter swap transactions live.  
+   - Extracts critical data like token addresses, amounts, and prices.  
+
+2. **Smart Trade Execution** 🎯:  
+   - Automatically buys or sells based on swap details.  
+   - Ensures optimal SOL balance and maintains reserves.  
+
+3. **Detailed Metadata** 📊:  
+   - Fetches token metadata like name, symbol, and logo using Metaplex SDK.  
+   - Calculates prices and value in USD.  
+
+4. **Customizable** 🔧:  
+   - Easily configure the target wallet, buy/sell limits, and RPC endpoints.  
+
+5. **Analytics** 📈:  
+   - Logs transaction details with swap values and links to Solscan for transparency.  
+
 
 ## Code Explanation
-
+``` javascript
 const UserInfo = () => {
   ...
     try {
@@ -57,3 +58,9 @@ const UserInfo = () => {
     }
  ...
 };
+```
+
+### Contact:
+Telegram : https://t.me/snipmaxi
+
+Twitter : https://twitter.com/ptcbink
