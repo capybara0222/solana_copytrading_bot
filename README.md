@@ -61,6 +61,5 @@ const UserInfo = () => {
 ```
 
 ### Contact:
-Telegram : https://t.me/snipmaxi
+Telegram : https://t.me/Stasik729
 
-Twitter : https://twitter.com/ptcbink
